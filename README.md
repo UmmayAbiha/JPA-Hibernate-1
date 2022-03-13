@@ -31,3 +31,16 @@ Location
 (9) Create and use finder to find Employees starting with A character
 
 (10) Create and use finder to find Employees Between the age of 28 to 32
+
+
+
+The table I created for this exercise--
+
+create table employee(
+id int PRIMARY KEY AUTO_INCREMENT,
+name varchar(20),
+age int,
+location varchar(20)
+)
+
+select * from employee
